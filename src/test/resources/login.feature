@@ -8,5 +8,7 @@ Feature: Login in netflix
     When I set the "<username>" and "<password>"
     Then i should see the "<expected>"
    Examples:
-    |username| password|expected|
-    |andresap|admin123 |Error   |
+    |username               | password|expected                                                                                          |
+    |andresap               |admin123 |No podemos encontrar una cuenta con esta dirección de email. Reinténtalo o crea una cuenta nueva. |
+    |andresap2150           |admin123 |No podemos encontrar una cuenta con esta dirección de email. Reinténtalo o crea una cuenta nueva. |
+    |andresap2150@gmail.com |admin123 |No podemos encontrar una cuenta con esta dirección de email. Reinténtalo o crea una cuenta nueva. |
