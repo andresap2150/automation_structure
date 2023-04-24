@@ -1,6 +1,5 @@
 package methods;
 
-import org.openqa.selenium.WebElement;
 import pages.LoginPage;
 
 public class LoginMethods extends CommonMethods{
